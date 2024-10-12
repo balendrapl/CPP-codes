@@ -20,7 +20,8 @@ int main()
     float PI = 3.14159265358979323;
     double PI2 = 3.14159265358979323;
 
-    cout << setprecision(12) << "PI = " << PI << endl;
-    cout << setprecision(12) << "PI2 = " << PI2 << endl;
+    cout << setprecision(17) << "PI = " << PI << endl;
+    cout << setprecision(17) << "PI2 = " << PI2 << endl; 
+    //17 precision set karne par bhi output me sirf 15 tak hi si se print hoga bcoz double ki itni hi chamta h
     return 0;
 }

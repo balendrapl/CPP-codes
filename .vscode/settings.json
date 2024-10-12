@@ -2,5 +2,7 @@
     "files.associations": {
         "iostream": "cpp",
         "ostream": "cpp"
-    }
+    },
+    "editor.fontFamily": "'cascadia code', Consolas, 'Courier New', monospace",
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}${separator}${appName} ⭐ Baalu"
 }

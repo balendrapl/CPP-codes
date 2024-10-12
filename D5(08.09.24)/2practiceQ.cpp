@@ -20,13 +20,13 @@ int main()
     // print numbers in a single line i.e horizontally
     for (int i = 1; i <= n; i++)
     {
-        cout << " " << i;
+        cout << i <<" "; //" " this is just to give space btw numbers
     }
-    cout << endl;
+    cout << endl;  // ⭐if we are not using this line here then below code ka 1st item print hi ni ho rha
     // print numbers in each different line i.e vertically
-    for (int i = 1; i <= n; i++)
+    for (int i = 2; i <= n; i++)
     {
-        cout << " " << i << endl;
+        cout << i <<" "<< endl;
     }
     return 0;
 }
