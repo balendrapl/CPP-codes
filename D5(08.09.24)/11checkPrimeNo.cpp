@@ -126,7 +126,7 @@ Ans. In python, we have an option of "for-else" statement where if loop ki condi
 //             break;
 //         }
 //     }
-//     if(isPrime) {
+//     if(isPrime) {      // here no need to write: "if(isPrime = true)" bcoz booldatatype ko automatically true value ke liye operate karta h
 //         cout<<"no. is prime"<<endl;
 //     } else{
 //         cout<<"no. is NOT prime"<<endl;
