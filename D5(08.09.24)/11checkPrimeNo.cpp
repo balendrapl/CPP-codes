@@ -147,7 +147,7 @@ Ans. In python, we have an option of "for-else" statement where if loop ki condi
 //     cin >> n;
 //     bool isPrime = true;
 
-//     for(int i=2; i<=sqrt(n); i++){
+//     for(int i=2; i<=sqrt(n); i++){   //⭐ if we don't want to include <cmath> file then use "i*i <= n" as:  i <= sqrt(n) --> i^2 <= n --> i*i<=n
 //         if(n%i ==0){
 //             isPrime = false;
 //             break;
